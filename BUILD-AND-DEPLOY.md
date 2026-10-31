@@ -19,7 +19,7 @@ Play all three games! This is exactly what ships inside the Android app.
 ## 1. What's in this project
 
 ```
-word-play/
+word-playground/
 ├── game/                  The complete games (HTML/CSS/JS) — playable in any browser
 │                          Chain Reaction · Word Duel (pass&play) · Word Hunt · Word of the Day
 ├── android/               Native Android Studio project (Kotlin WebView shell + AdMob rewarded ads)
@@ -139,7 +139,7 @@ rejects it.
 The repo's GitHub Pages is enabled, so your privacy policy is live at:
 
 ```
-https://alirizwantariq.github.io/word-play/store-listing/privacy-policy.html
+https://alirizwantariq.github.io/word-playground/store-listing/privacy-policy.html
 ```
 
 Use that URL in the Play Console privacy policy field.
@@ -147,7 +147,7 @@ Use that URL in the Play Console privacy policy field.
 > Support/contact email in the policy: `blankthedev@gmail.com`.
 
 Bonus: the game itself is playable online at
-`https://alirizwantariq.github.io/word-play/game/index.html` — great for
+`https://alirizwantariq.github.io/word-playground/game/index.html` — great for
 sharing with testers before the Play Store launch.
 
 ---
