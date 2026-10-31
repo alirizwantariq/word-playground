@@ -1,4 +1,4 @@
-# Play Store Listing — Word Play
+# Play Store Listing — Word Playground
 
 Copy-paste everything below into **Google Play Console → Create app**.
 
@@ -8,7 +8,7 @@ Copy-paste everything below into **Google Play Console → Create app**.
 
 | Field | Value |
 |---|---|
-| App name (30 chars max) | `Word Play: 3 Word Games` |
+| App name (30 chars max) | `Word Playground: 3 Word Games` |
 | Default language | English (US) |
 | App or game | **Game** |
 | Free or paid | **Free** |

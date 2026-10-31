@@ -1,5 +1,5 @@
 /* ============================================================
-   WORD PLAY - Word Duel v2: "Guess the Word" (pass & play)
+   WORD PLAYGROUND - Word Duel v2: "Guess the Word" (pass & play)
    Each player secretly writes ONE word (object, animal, person,
    food or place). Then everyone else takes turns guessing
    letters - hangman style. 6 shared hearts per word: every wrong
@@ -379,7 +379,7 @@ window.WordDuel = (function () {
 
   function invite() {
     window.CRWAudio.click();
-    var msg = "Play Word Play with me! 🎮 3 quick word games — pass & play " +
+    var msg = "Play Word Playground with me! 🎮 3 quick word games — pass & play " +
       "Word Duel on one phone. Get it free: " +
       "https://play.google.com/store/apps/details?id=com.blankthedev.wordplay";
     if (window.AndroidBridge && window.AndroidBridge.shareText) {

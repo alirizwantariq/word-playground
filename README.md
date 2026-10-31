@@ -1,4 +1,4 @@
-# ⚡ Word Play — 3 Quick Word Games
+# ⚡ Word Playground — 3 Quick Word Games
 
 A complete, release-ready Android game hub for all ages (5–95). **Chain
 Reaction**, **Word Duel** (pass & play), and **Word Hunt** — plus a **Word of

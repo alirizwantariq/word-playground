@@ -1,4 +1,4 @@
-# 🚀 Build & Deploy Guide — Word Play
+# 🚀 Build & Deploy Guide — Word Playground
 
 From this folder to a live app on Google Play. Follow the steps in order.
 
@@ -118,7 +118,7 @@ rejects it.
 ## 4. Create the app on Play Console
 
 1. Sign up at **play.google.com/console** (one-time **US $25** fee).
-2. **Create app** → fill in: name `Word Play: 3 Word Games`, language English (US), **Game**, **Free**.
+2. **Create app** → fill in: name `Word Playground: 3 Word Games`, language English (US), **Game**, **Free**.
 3. Open **Store listing** and paste everything from **`store-listing/listing.md`**:
    - Upload `store-listing/icon-512.png`, `feature-graphic.png`
    - Upload all screenshots from `store-listing/screenshots/`
@@ -169,7 +169,7 @@ EEA/UK users). Settings shows a "Privacy options" button when UMP requires one.
 build while any of them is empty or still a test ID:
 
 1. Create a free **AdMob account** at admob.google.com → add your app
-   ("Word Play", Android, package `com.blankthedev.wordplay`).
+   ("Word Playground", Android, package `com.blankthedev.wordplay`).
 2. Create a **Rewarded** and an **Interstitial** ad unit.
 3. Fill in `android/gradle.properties`:
    ```properties
