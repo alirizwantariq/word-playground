@@ -31,6 +31,7 @@ word-play/
 │   └── privacy-policy.html    Host this (see step 5)
 ├── tools/                 Icon generator (Swift), feature graphic source, pixel checkers
 ├── README.md             Project overview
+├── CHANGELOG.md          Version history (+ Play "What's new" in listing.md §8)
 └── BUILD-AND-DEPLOY.md   This file
 ```
 
@@ -225,9 +226,10 @@ How to run it:
 ## 8. Production release
 
 1. **Production → Create release** → upload the same AAB → rollout **100%** (or staged: 5% → 20% → 100% over a few days — safer).
-2. Set countries (start with a few, go global after early feedback).
-3. Submit → review usually takes **a few hours to a few days**.
-4. 🎉 You're live on Google Play.
+2. Paste the **Release notes** ("What's new") from `store-listing/listing.md` §8 — keep it ≤ 500 characters.
+3. Set countries (start with a few, go global after early feedback).
+4. Submit → review usually takes **a few hours to a few days**.
+5. 🎉 You're live on Google Play.
 
 ---
 
@@ -241,7 +243,9 @@ How to run it:
 3. Bump the version in `android/app/build.gradle`:
    - `versionCode 1 → 2` (must increase by exactly 1 each release)
    - `versionName "1.0.0" → "1.1.0"`
-4. Rebuild the AAB, upload to the same app → new release.
+4. Describe the update in `CHANGELOG.md` and copy a ≤500-character summary
+   into `store-listing/listing.md` §8 (the Play Console "What's new" field).
+5. Rebuild the AAB, upload to the same app → new release.
 
 ---
 

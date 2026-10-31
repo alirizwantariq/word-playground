@@ -170,3 +170,22 @@ Result: **Rated Everyone** (ads are permitted at this rating; requests are tagge
 | Audio | Brief synthesized sound effects; video ads (network-served) |
 | 2D/3D rendering | 2D only |
 | AR | No |
+
+---
+
+## 8. Release notes (Play Console → "What's new", 500 chars max)
+
+Paste this for the v2.1.0 release (494 chars — fits the limit):
+
+```
+Welcome to Word Playground! 🎉 Three quick word games in your pocket.
+🔎 Word Hunt: a 12-level adventure across EASY → MEDIUM → HARD tiers — grids grow every level, and easy levels have NO timer, perfect for young players.
+✨ New in-game hints: watch a short optional ad to make letters glow, or spend coins on a HINT.
+📊 Settings shows your stats for all three games.
+🔗 Chain Reaction: 80 hand-crafted levels. 👥 Word Duel: pass & play for 2–4 players.
+Works offline · family-friendly · have fun! 🎈
+```
+
+Future releases: write the notes here (or in `CHANGELOG.md`), re-count the
+characters (must stay ≤ 500), then paste into the release's
+**Release notes** field.

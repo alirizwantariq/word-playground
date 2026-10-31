@@ -50,12 +50,14 @@ JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home" \
 
 ## 🗂 Project layout
 
+Version history: [`CHANGELOG.md`](CHANGELOG.md) — release notes for the Play Console live in `store-listing/listing.md` §8.
+
 | Folder | What it is |
 |---|---|
 | `game/` | The games — `index.html`, `css/styles.css`, `js/levels.js`, `js/wordoftheday.js`, `js/wordduel.js`, `js/wordhunt.js`, `js/audio.js`, `js/game.js` |
 | `android/` | Android Studio project (Kotlin WebView shell, AdMob rewarded + interstitial ads, UMP consent, adaptive icons) |
-| `store-listing/` | Play Store icon, feature graphic, 10 screenshots, listing copy, privacy policy |
-| `tools/` | Icon generator (Swift), feature-graphic source, pixel-verification utilities |
+| `store-listing/` | Play Store icon, feature graphic, 18 device screenshots, listing copy incl. release notes, privacy policy |
+| `tools/` | Icon generator (Swift), feature-graphic source, on-device test drivers (tap flows, layout audit, store-shot capture) |
 
 ## 🔧 Extending
 
